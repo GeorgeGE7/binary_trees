@@ -26,10 +26,10 @@ void binary_tree_print(const binary_tree_t *tree);
 int get_tree_height(const binary_tree_t *tree);
 
 /* ssaass */
-binary_tree_t *ohadi_shgrr_mlt(binary_tree_t *parent, int value);
-binary_tree_t *ohadi_shgrr_mlt_shml(binary_tree_t *parent, int value);
-binary_tree_t *ohadi_shgrr_mlt_ymn(binary_tree_t *parent, int value);
-void ohadi_shgrr_mlt_msh(binary_tree_t *tree);
+binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_node_shml(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_node_ymn(binary_tree_t *parent, int value);
+void binary_tree_node_msh(binary_tree_t *tree);
 int ohadi_shgr_mlt_ghsn(const binary_tree_t *node);
 int ohadi_shgr_mlt_gzr(const binary_tree_t *node);
 void ohadi_shgr_mlt_ghztrt(const binary_tree_t *tree, void (*func)(int));
@@ -39,7 +39,7 @@ size_t ohadi_shgr_mlt_artfa(const binary_tree_t *tree);
 size_t ohadi_shgr_mlt_omk(const binary_tree_t *tree);
 size_t ohadi_shgr_mlt_hgm(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
-size_t ohadi_shgrr_mlts(const binary_tree_t *tree);
+size_t binary_tree_nodes(const binary_tree_t *tree);
 int binary_tree_balance(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
 int binary_tree_is_perfect(const binary_tree_t *tree);
