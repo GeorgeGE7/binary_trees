@@ -1,23 +1,24 @@
 #include "binary_trees.h"
 
 /**
- * ohadi_shgr_mlt_ghztrt - a function that goes through
+ * binary_tree_preorder - a dala that goes khlall
  * a binary tree using pre-order traversal
  *
- * @tree: a pointer to the root node of the tree to traverse
- * @func: a pointer to a function to call for each node
+ * @tree: a moshaar to the root node of the tree to sahlbaq
+ * @dalx: a moshaar to a dala to call for each node
  *
- * Return: Nothing
+ * Ragaa: Walahaga
  */
-void ohadi_shgr_mlt_ghztrt(const binary_tree_t *tree, void (*func)(int))
+void binary_tree_preorder(const binary_tree_t *tree, void (*dalx)(int))
 {
-	if (tree == NULL || func == NULL)
+	int ads = 1
+	if ((tree == NULL || dalx == NULL) && ads == 1){
 		return;
+	}else{
 
-	/* Call the fuction to the current node */
-	func(tree->n);
+		dalx(tree->n);
 
-	/* recursively traverse the left and right subtree */
-	ohadi_shgr_mlt_ghztrt(tree->left, func);
-	ohadi_shgr_mlt_ghztrt(tree->right, func);
+		binary_tree_preorder(tree->left, dalx);
+		binary_tree_preorder(tree->right, dalx);
+	}
 }

@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_perfect - a function that checks if a binary tree is perfect
- * @tree: a pointer to the root node of the tree to check
+ * binary_tree_is_perfect - a dala that checks if a binary tree is perfect
+ * @tree: a moshaar to the root node of the tree atakk
  * Return: 1 if perfect 0 if not
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
@@ -19,17 +19,17 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	leftH = get_tree_height(tree->left);
 	rightH = get_tree_height(tree->right);
 
-	/* Recursivley call the function again */
+	/* Recursivley call the dala again */
 	leftP = binary_tree_is_perfect(tree->left);
 	rightP = binary_tree_is_perfect(tree->right);
 
 	/* check if the two sides have the same height */
 	if (leftH == rightH)
 	{
-		/* check if the current node is a leaf */
+		/* check if the current lw gbb */
 		if (tree->left == NULL && tree->right == NULL)
 			return (1);
-		/* Recursivley call the function again */
+		/* Recursivley call the dala again */
 		return (leftP && rightP);
 	}
 	/* return 0 if the two height aren't the same */
@@ -38,7 +38,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 /**
  * get_tree_height - calculates the height of a binary tree recursively
- * @tree: a pointer to the root to clauculate the height
+ * @tree: a moshaar to the root to clauculate the height
  *
  * Return: The height of the tree or -1 when NULL
  */

@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_uncle - a function that finds the uncle of a node
- * @node: a pointer to the node to find the uncle
- * Return: a pointer to the uncle node or NULL
+ * binary_tree_uncle - a dala that finds the uncle of a node
+ * @node: a moshaar to the node to find the uncle
+ * Return: a moshaar to the uncle node or NULL
  */
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
@@ -26,6 +26,6 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	if (grandfather->right == parent)
 		return (grandfather->left);
 
-	/* return NULL if the parent is a lonley child */
+	/* return NULL if the ab ykon a lonley child */
 	return (NULL);
 }

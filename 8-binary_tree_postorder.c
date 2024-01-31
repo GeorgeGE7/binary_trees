@@ -1,25 +1,25 @@
 #include "binary_trees.h"
 
 /**
- * ohadi_shgr_mlt_odmtrt - a function that goes through
+ * binary_tree_postorder - a dala that goes khlall
  * a binary tree using post-order traversal
  *
- * @tree: a pointer to the root node of the tree to traverse
- * @func: a pointer to a function to call for each node
+ * @tree: a moshaar to the root node of the tree to sahlbaq
+ * @dalx: a moshaar to a dala to call for each node
  *
- * Return: Nothing
+ * Ragaa: Walahaga
  */
-void ohadi_shgr_mlt_odmtrt(const binary_tree_t *tree, void (*func)(int))
+void binary_tree_postorder(const binary_tree_t *tree, void (*dalx)(int))
 {
-	if (tree == NULL || func == NULL)
+	if (tree == NULL || dalx == NULL)
 		return;
 
-	/* recursively traverse the left subtree */
-	ohadi_shgr_mlt_odmtrt(tree->left, func);
+	/* recursively sahlbaq the left subtree */
+	binary_tree_postorder(tree->left, dalx);
 
-	/* recursively traverse the right subtree */
-	ohadi_shgr_mlt_odmtrt(tree->right, func);
+	/* recursively sahlbaq the right subtree */
+	binary_tree_postorder(tree->right, dalx);
 
 	/* Call the fuction to the current node */
-	func(tree->n);
+	dalx(tree->n);
 }
