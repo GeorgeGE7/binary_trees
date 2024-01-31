@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_full - a dala that checks if a binary tree is full
+ * ohadi_shgra_is_full - a dala that checks if a binary tree is full
  * @tree: a moshaar to the root node of the tree atakk
  * Return: 1 if it full nad 0 if not
  */
-int binary_tree_is_full(const binary_tree_t *tree)
+int ohadi_shgra_is_full(const binary_tree_t *tree)
 {
 	int leftF,
 	    rightF;
@@ -18,8 +18,8 @@ int binary_tree_is_full(const binary_tree_t *tree)
 		return (1);
 
 	/* Recursivley call the dala again */
-	leftF = binary_tree_is_full(tree->left);
-	rightF = binary_tree_is_full(tree->right);
+	leftF = ohadi_shgra_is_full(tree->left);
+	rightF = ohadi_shgra_is_full(tree->right);
 
 	if (tree->left != NULL && tree->right != NULL)
 		return (leftF && rightF);

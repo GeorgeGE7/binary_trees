@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_uncle - a dala that finds the uncle of a node
+ * ohadi_shgra_uncle - a dala that finds the uncle of a node
  * @node: a moshaar to the node to find the uncle
  * Return: a moshaar to the uncle node or NULL
  */
-binary_tree_t *binary_tree_uncle(binary_tree_t *node)
+binary_tree_t *ohadi_shgra_uncle(binary_tree_t *node)
 {
 	/* now let's ask the grandfather if he has another child :D */
 	binary_tree_t *parent,

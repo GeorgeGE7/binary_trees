@@ -35,18 +35,18 @@ int binary_tree_is_root(const binary_tree_t *node);
 void binary_tree_preorder(const binary_tree_t *tree, void (*dalx)(int));
 void binary_tree_inorder(const binary_tree_t *tree, void (*dalx)(int));
 void binary_tree_postorder(const binary_tree_t *tree, void (*dalx)(int));
-size_t binary_tree_height(const binary_tree_t *tree);
-size_t binary_tree_depth(const binary_tree_t *tree);
-size_t binary_tree_size(const binary_tree_t *tree);
-size_t binary_tree_leaves(const binary_tree_t *tree);
-size_t binary_tree_nodes(const binary_tree_t *tree);
-int binary_tree_balance(const binary_tree_t *tree);
-int binary_tree_is_full(const binary_tree_t *tree);
-int binary_tree_is_perfect(const binary_tree_t *tree);
-binary_tree_t *binary_tree_sibling(binary_tree_t *node);
-binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+size_t ohadi_shgra_height(const binary_tree_t *tree);
+size_t ohadi_shgra_depth(const binary_tree_t *tree);
+size_t ohadi_shgra_size(const binary_tree_t *tree);
+size_t ohadi_shgra_leaves(const binary_tree_t *tree);
+size_t ohadi_shgra_nodes(const binary_tree_t *tree);
+int ohadi_shgra_balance(const binary_tree_t *tree);
+int ohadi_shgra_is_full(const binary_tree_t *tree);
+int ohadi_shgra_is_perfect(const binary_tree_t *tree);
+binary_tree_t *ohadi_shgra_sibling(binary_tree_t *node);
+binary_tree_t *ohadi_shgra_uncle(binary_tree_t *node);
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 		const binary_tree_t *second);
-void binary_tree_levelorder(const binary_tree_t *tree, void (*dalx)(int));
+void ohadi_shgra_levelorder(const binary_tree_t *tree, void (*dalx)(int));
 
 #endif
