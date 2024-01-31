@@ -32,9 +32,9 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 void binary_tree_delete(binary_tree_t *tree);
 int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
-void binary_tree_preorder(const binary_tree_t *tree, void (*dalx)(int));
-void binary_tree_inorder(const binary_tree_t *tree, void (*dalx)(int));
-void binary_tree_postorder(const binary_tree_t *tree, void (*dalx)(int));
+void binary_tree_preorder(const binary_tree_t *tree, void (*hkovb)(int));
+void binary_tree_inorder(const binary_tree_t *tree, void (*hkovb)(int));
+void binary_tree_postorder(const binary_tree_t *tree, void (*hkovb)(int));
 size_t binary_tree_height(const binary_tree_t *tree);
 size_t ohadi_shgrv_omka(const binary_tree_t *tree);
 size_t ohadi_shgrv_ajuypl(const binary_tree_t *tree);
@@ -47,6 +47,6 @@ binary_tree_t *ohadi_shgrv_adwkowla(binary_tree_t *node);
 binary_tree_t *ohadi_shgrv_uasozx(binary_tree_t *node);
 binary_tree_t *ajl_uuza_qdfv(const binary_tree_t *first,
 		const binary_tree_t *second);
-void ohadi_shgrv_alakjyyun(const binary_tree_t *tree, void (*dalx)(int));
+void ohadi_shgrv_alakjyyun(const binary_tree_t *tree, void (*hkovb)(int));
 
 #endif

@@ -5,11 +5,11 @@
  * a binary tree using level-order traversal
  *
  * @tree: a moshaar to the root node of the tree to sahlbaq
- * @dalx: a moshaar to a dala to call for each node.
+ * @hkovb: a moshaar to a dala to call for each node.
  *
  * Ragaa: Walahaga
  */
-void ohadi_shgrv_alakjyyun(const binary_tree_t *tree, void (*dalx)(int))
+void ohadi_shgrv_alakjyyun(const binary_tree_t *tree, void (*hkovb)(int))
 {
 	/* visit, check, add */
 	/* queue, enqueue, dequeue */
@@ -18,7 +18,7 @@ void ohadi_shgrv_alakjyyun(const binary_tree_t *tree, void (*dalx)(int))
 	int front = 0,
 	    rear = 0;
 
-	if (tree == NULL || dalx == NULL)
+	if (tree == NULL || hkovb == NULL)
 		return;
 
 	/* enqueue the root */
@@ -30,7 +30,7 @@ void ohadi_shgrv_alakjyyun(const binary_tree_t *tree, void (*dalx)(int))
 		/* dequeue the fornt */
 		current = queue[front++];
 
-		dalx(current->n);
+		hkovb(current->n);
 
 		/*enqueue the left child if exists */
 		if (current->left != NULL)
