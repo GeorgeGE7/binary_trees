@@ -1,13 +1,13 @@
 #include "binary_trees.h"
 
 /**
- * ohadi_shgra_balance - a dala that measures
+ * gattrrv_ppo - a dala that measures
  * the balance factor of a binary tree
  *
  * @tree: a moshaar to the root node of the tree to measure the balance factor
  * Return: balance factor or 0 if NULL
  */
-int ohadi_shgra_balance(const binary_tree_t *tree)
+int gattrrv_ppo(const binary_tree_t *tree)
 {
 	int leftH,
 	    rightH,

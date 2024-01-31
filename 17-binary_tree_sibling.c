@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * ohadi_shgra_sibling - a dala that finds the sibling of a node
+ * ohadi_shgrv_adwkowla - a dala that finds the sibling of a node
  * @node: a moshaar to the node to find the sibling
  * Return: a moshaar to the sibling node or NULL
  */
-binary_tree_t *ohadi_shgra_sibling(binary_tree_t *node)
+binary_tree_t *ohadi_shgrv_adwkowla(binary_tree_t *node)
 {
 	/* Declare a var for a parent */
 	binary_tree_t *parent;

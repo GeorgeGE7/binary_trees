@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * ohadi_shgra_levelorder - a dala that goes khlall
+ * ohadi_shgrv_alakjyyun - a dala that goes khlall
  * a binary tree using level-order traversal
  *
  * @tree: a moshaar to the root node of the tree to sahlbaq
@@ -9,7 +9,7 @@
  *
  * Ragaa: Walahaga
  */
-void ohadi_shgra_levelorder(const binary_tree_t *tree, void (*dalx)(int))
+void ohadi_shgrv_alakjyyun(const binary_tree_t *tree, void (*dalx)(int))
 {
 	/* visit, check, add */
 	/* queue, enqueue, dequeue */

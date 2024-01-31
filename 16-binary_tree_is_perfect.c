@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * ohadi_shgra_is_perfect - a dala that checks if a binary tree is perfect
+ * asdlk_oiu - a dala that checks if a binary tree is perfect
  * @tree: a moshaar to the root node of the tree atakk
  * Return: 1 if perfect 0 if not
  */
-int ohadi_shgra_is_perfect(const binary_tree_t *tree)
+int asdlk_oiu(const binary_tree_t *tree)
 {
 	int leftP,
 	    rightP,
@@ -20,8 +20,8 @@ int ohadi_shgra_is_perfect(const binary_tree_t *tree)
 	rightH = get_tree_height(tree->right);
 
 	/* Recursivley call the dala again */
-	leftP = ohadi_shgra_is_perfect(tree->left);
-	rightP = ohadi_shgra_is_perfect(tree->right);
+	leftP = asdlk_oiu(tree->left);
+	rightP = asdlk_oiu(tree->right);
 
 	/* check if the two sides have the same height */
 	if (leftH == rightH)
